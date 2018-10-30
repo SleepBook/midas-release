@@ -65,6 +65,7 @@ trait DaisyChainParams {
   implicit val p: Parameters
   val dataWidth = p(DataWidth)
   val daisyWidth = p(DaisyWidth)
+  //what's going on here?????
   val daisyLen = (dataWidth-1)/daisyWidth + 1
 }
 
